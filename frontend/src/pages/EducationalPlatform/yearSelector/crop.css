@@ -1,0 +1,73 @@
+.ED-cropInfo {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.ED-inner-cropInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*=====================================================
+                 select button
+=======================================================*/
+
+.ED-select {
+  background-color: rgba(7, 53, 7, 0.915);
+  border: none;
+  color: white;
+  padding: 12px 15px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 1px solid green;
+  border-radius: 10px;
+  margin-bottom: 20px; 
+}
+
+.ED-info-container {
+  display: flex;
+}
+
+
+
+/*=====================================================
+                 year images
+=======================================================*/
+
+.ED-image-container {
+  flex: 0.25;
+  display: flex;
+  
+  justify-content: flex-start; 
+}
+
+.ED-yearImage {
+  width: 250px; 
+  height: 250px; 
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; 
+  border: 2px solid green;
+  object-fit: cover;
+}
+
+.ED-crop-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px; 
+}
+
+.ED-text {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+

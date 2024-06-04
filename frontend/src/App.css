@@ -1,0 +1,277 @@
+
+*{
+    
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+}
+.container{
+    display:flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; 
+    max-width: 100vw; 
+    max-height: 100vh; 
+    overflow: auto; 
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+    background: #121821;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.3s;
+    justify-content: space-between;
+    align-items: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+
+.top_section{
+    
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+    margin-bottom: 10%;
+    border-bottom: 2px solid #74b88e;
+    border-bottom-right-radius: 15px;
+}
+    
+.Bottom {
+    background-color: #232935; 
+    
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 50%; 
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    border-radius: 10px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+   
+    
+}
+
+
+
+
+.link:hover{
+    background:#dff6ec;
+    transform: translateX(5px);
+    color: #000;
+    transition: all 0.1s;
+}
+.active{
+    background: #03a76f;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+
+.menu-item-wrapper {
+    margin-bottom: 10%;
+    font-size:20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    padding-top: 30px;
+    
+    background-color: #232935;
+       
+}
+body{
+    
+    margin: 0;
+    background-color:#e1f7e9;
+}
+
+.menu-item-wrapper1 {
+
+    
+    margin-bottom: 10%;
+    font-size:20px;
+    border-radius: 20px;
+    padding: 10px;
+    
+   
+    background-color: #232935;
+
+
+    
+    
+    
+}
+
+
+.bottomopt{
+    margin-top: 30%;
+}
+
+.bottomopt.open{
+    margin-top: 85%;
+    
+}
+
+
+@media screen and (min-resolution: 120dpi) {
+    .bottomopt{
+        margin-top: 0%;
+    }
+    
+    .bottomopt.open{
+        margin-top: 35%;
+    }
+}
+
+
+@media (width: 1440px) and (height: 900px) {
+    .bottomopt{
+        margin-top: 15%;
+    }
+    
+    .bottomopt.open{
+        margin-top: 80%;
+    }
+}
+
+
+
+@media (width: 1280px) and (height: 950px) {
+    .bottomopt{
+        margin-top: 15%;
+    }
+    
+    .bottomopt.open{
+        margin-top: 100%;
+    }
+}
+
+@media (width: 1280px) and (height: 800px) {
+    .bottomopt{
+        margin-top: 15%;
+    }
+    
+    .bottomopt.open{
+        margin-top: 45%;
+    }
+}
+
+@media (width: 1024px) and (height: 800px) {
+    .bottomopt{
+        margin-top: 15%;
+    }
+    
+    .bottomopt.open{
+        margin-top: 45%;
+    }
+}
+
+
+
+@media (width:834px) and (height: 1112px) {
+    .bottomopt{
+        margin-top: 20%;
+    }
+    
+    .bottomopt.open{
+        margin-top: 160%;
+    }
+}
+
+
+
+
+@media (width: 414px) and (height: 896px) {
+    .bottomopt{
+        margin-top: 30%;
+    }
+    
+    .bottomopt.open{
+        margin-top: 80%;
+    }
+}
+
+@media (width: 412px) and (height: 846px) {
+    .bottomopt{
+        margin-top: 40%;
+    }
+    
+    .bottomopt.open{
+        margin-top: 60%;
+    }
+}
+
+
+@media (width: 688px) and (height: 1031px) {
+    .bottomopt{
+        margin-top: 20%;
+    }
+    
+    .bottomopt.open{
+        margin-top: 130%;
+    }
+}
+
+
+@media (width: 393px) and (height: 786px) {
+    .bottomopt{
+        margin-top: 5%;
+    }
+    
+    .bottomopt.open{
+        margin-top: 40%;
+    }
+}
+
+@media (width: 375px) and (height: 812px) {
+    .bottomopt{
+        margin-top: 10%;
+    }
+    
+    .bottomopt.open{
+        margin-top: 50%;
+    }
+}
+
+   
+@media (width: 360px) and (height: 740px) {
+    .bottomopt{
+        margin-top: -25%;
+    }
+    
+    .bottomopt.open{
+        margin-top: 20%;
+    }
+   
+
+}
+    
